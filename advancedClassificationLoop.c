@@ -2,12 +2,11 @@
 #include <math.h>
 #include "NumClass.h"
 
-
 int isArmstrong(int n)
 {
 	int number=n, count=0, sum=0;
 	/*Check the length of number1*/
-	while(number!=0)
+	while(number> 0)
 	{
 		count++;
 		number /= 10;
@@ -19,6 +18,7 @@ int isArmstrong(int n)
 		int unity=number%10;
 		int anspow=pow(unity,count);
 		sum += anspow;
+		number /= 10;
 	}
 	if(n==sum)
 	{
@@ -45,4 +45,3 @@ int isPalindrome(int n){
 	}
 		return 0;
 }
-

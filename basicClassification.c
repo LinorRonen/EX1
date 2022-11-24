@@ -38,7 +38,7 @@ int isStrong(int n)
 }
 
 /*return the factorial of a integer number*/
-factorial(int n){
+int factorial(int n){
 	 int mult=1;
 	 for(int i=1;i<=n;i++)
 	 {
@@ -46,4 +46,3 @@ factorial(int n){
 	 }
 return mult;
 }
-

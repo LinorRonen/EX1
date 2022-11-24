@@ -7,4 +7,5 @@ int isStrong(int);
 int factorial(int);
 int lengthOfNumber(int);
 int sumOfPowOfDigits(int, int);
+int isPalindromeRecursive (int, int);
 #endif
